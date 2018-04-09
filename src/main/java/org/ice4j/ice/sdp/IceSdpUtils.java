@@ -19,9 +19,9 @@ package org.ice4j.ice.sdp;
 
 import org.ice4j.*;
 import org.ice4j.ice.*;
-import org.opentelecoms.javax.sdp.*;
+//import org.opentelecoms.javax.sdp.*;
 
-import javax.sdp.*;
+import android.javax.sdp.*;
 import java.util.*;
 import java.util.logging.*;
 
@@ -72,7 +72,7 @@ public class IceSdpUtils
     /**
      * A reference to the currently valid SDP factory instance.
      */
-    private static final SdpFactory sdpFactory = new NistSdpFactory();
+    private static final SdpFactory sdpFactory = SdpFactory.getInstance();
 
     /**
      * The <tt>Logger</tt> used by the <tt>IceSdpUtils</tt>

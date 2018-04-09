@@ -20,7 +20,7 @@ package test;
 import java.util.*;
 import java.util.logging.*;
 
-import javax.sdp.*;
+import android.javax.sdp.*;
 
 import org.ice4j.ice.*;
 import org.ice4j.ice.harvest.*;

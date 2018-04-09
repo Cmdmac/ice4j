@@ -17,12 +17,12 @@
  */
 package org.ice4j.ice.sdp;
 
-import gov.nist.core.*;
-import gov.nist.javax.sdp.fields.*;
+import android.gov.nist.core.*;
+import android.gov.nist.javax.sdp.fields.*;
 import org.ice4j.*;
 import org.ice4j.ice.*;
 
-import javax.sdp.*;
+import android.javax.sdp.*;
 
 public class CandidateAttribute extends AttributeField
 {
@@ -148,9 +148,7 @@ public class CandidateAttribute extends AttributeField
      * @throws javax.sdp.SdpException if there's a problem with the <tt>value
      * String</tt>.
      */
-    public void setValue(String value)
-        throws SdpException
-    {
+    public void setValue(String value) {
     }
 
     /**
