@@ -21,6 +21,15 @@
   </scm>
 
   <dependencies>
+
+    <dependency>
+    <groupId>android.sip.sdp</groupId>
+    <artifactId>sip.sdp</artifactId>
+    <version>1.0.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/lib/android-sip-stack.jar</systemPath>
+  </dependency>
+
     <dependency>
       <groupId>org.opentelecoms.sdp</groupId>
       <artifactId>java-sdp-nist-bridge</artifactId>
